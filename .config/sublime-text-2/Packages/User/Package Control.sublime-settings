@@ -1,0 +1,16 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"AutoPEP8",
+		"JSLint",
+		"Markdown Preview",
+		"Markdown Slideshow",
+		"Package Control",
+		"Pylinter",
+		"Python Coverage",
+		"Python Flake8 Lint",
+		"Python Pep8 Lint",
+		"PythonTidy"
+	]
+}

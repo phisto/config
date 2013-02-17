@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+<html>
+<head>
+	<title>${1:title}</title>
+	<script src="../lib/jquery-1.7.2.js"></script>
+	<script src="../lib/underscore-min.js"></script>
+	<script src="../lib/bootstrap/js/boostrap.min.js"></script>
+	<link rel="stylesheet" href="../lib/bootstrap/css/bootstrap-responsive.min.css" type="text/css" media="screen">
+	<style>
+
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="hero-unit">
+		<h1>Hello world ! </h1>
+	</div>
+</div>
+</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>htmlsimple</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

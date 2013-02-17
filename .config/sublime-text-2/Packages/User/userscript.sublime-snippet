@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+// ==UserScript==
+// @name           ${1:name}
+// @namespace      ${2:namespace}
+// @description    ${3:description}
+// @include        ${4:url}
+// @author		   Patrick Browne
+// @version        0.1
+// @grant		   unsafeWindow
+// @grant 		   GM_xmlhttpRequest 
+// ==/UserScript==
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>userscript</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

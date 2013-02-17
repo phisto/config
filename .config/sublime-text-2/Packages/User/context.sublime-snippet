@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+def __enter__(self):
+  self.mailServer = smtplib.SMTP("smtp.gmail.com", 587)
+  self.mailServer.ehlo()
+  self.mailServer.starttls()
+  self.mailServer.ehlo()
+  try:
+     self.mailServer.login(self.gmail_user, self.gmail_pwd)
+  except Exception as e:
+     print e
+  return (self.mailServer, self.gmail_user)
+
+def __exit__(self, type, value, traceback):
+  self.mailServer.close()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>context</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

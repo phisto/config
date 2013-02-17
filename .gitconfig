@@ -1,0 +1,11 @@
+[user]
+	name = Patrick Browne
+	email = pt.browne@gmail.com
+[giggle]
+	main-window-maximized = false
+	main-window-geometry = 1263x643+2+43
+	history-view-vpane-position = 361
+	main-window-view = HistoryView
+	file-view-vpane-position = 578
+[core]
+	excludesfile = /home/pat/.gitignore_global

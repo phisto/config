@@ -1,0 +1,13 @@
+{
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"font_size": 8,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Pylinter"
+	],
+	"scroll_past_end": true,
+	"translate_tabs_to_spaces": true
+}
