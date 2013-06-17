@@ -2,7 +2,12 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
-		"AutoPEP8",
+		"Alignment",
+		"fish-shell",
+		"Git",
+		"GitGutter",
+		"Handlebars",
+		"Highlight Whitespaces",
 		"JSLint",
 		"Markdown Preview",
 		"Markdown Slideshow",
@@ -11,6 +16,13 @@
 		"Python Coverage",
 		"Python Flake8 Lint",
 		"Python Pep8 Lint",
-		"PythonTidy"
+		"PythonTidy",
+		"Shrink Whitespaces",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeRope",
+		"TrailingSpaces",
+		"VAlign",
+		"Whitespaces"
 	]
 }

@@ -1,0 +1,28 @@
+- cmd: function fish_prompt\n\nif not set -q -g __fish_robbyrussell_functions_defined\nset -g __fish_robbyrussell_functions_defined\nfunction _git_branch_name\necho (git symbolic-ref HEAD ^/dev/null | sed -e 's|^refs/heads/||')\nend\n\nfunction _is_git_dirty\necho (git status -s --ignore-submodules=dirty ^/dev/null)\nend\n\nfunction _get_git_changes\nset -l green (set_color green)\nset -l red (set_color red)\necho (git diff --numstat | awk -F"\\t" '{sum1+=$1; sum2+=$2} END {print sum1 "\\t" sum2}' | sed "s/^\\([0-9]*\\)\\t\\([0-9]*\\)/$green+\\1$red-\\2/g")\nend\nend\n\nif set --query "VIRTUAL_ENV"\nprintf "(%s) %s" (basename $VIRTUAL_ENV)\nend\n\nset -l cyan (set_color cyan)\nset -l yellow (set_color yellow)\nset -l red (set_color red)\nset -l blue (set_color blue)\nset -l normal (set_color normal)\n\nset -l cwd $cyan(basename (prompt_pwd))\n\nif [ (_git_branch_name) ]\nset -l git_branch $blue(_git_branch_name)\nset git_info $git_branch\n\nif [ (_is_git_dirty) ]\nset -l changes (_get_git_changes)\nset git_info "$git_info$normal($changes$normal)"\nend\nend\n\necho -n -s $cwd " " $git_info $normal ' '\nend
+   when: 1369738452
+- cmd: ca va
+   when: 1370422537
+- cmd: ca
+   when: 1370422554
+- cmd: tranquilou
+   when: 1370422557
+- cmd: salut
+   when: 1370422610
+- cmd: coucou
+   when: 1370422682
+- cmd: sa
+   when: 1370422683
+- cmd: va
+   when: 1370422684
+- cmd: ca
+   when: 1370422708
+- cmd: va
+   when: 1370422709
+- cmd: tran
+   when: 1370422710
+- cmd: coucou
+   when: 1370422859
+- cmd: ca
+   when: 1370422860
+- cmd: va
+   when: 1370422861
